@@ -9,3 +9,13 @@ git config https.proxy http://127.0.0.1:7890
 git config --unset http.proxy
 git config --unset https.proxy
 ```
+
+## npm
+
+在 `package.json` 中以下配置, 执行 `npm i`, packages 中的目录都会被软链到 `node_modules` 中
+
+```json
+{
+  "workspaces": ["packages/*"]
+}
+```
