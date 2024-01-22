@@ -2,7 +2,8 @@
   "name": "wumo-wujie",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "watch": "rollup -c rollup.config.mjs -w",
     "build": "rollup -c rollup.config.mjs"

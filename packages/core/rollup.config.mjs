@@ -14,7 +14,7 @@ export default {
     }
   ],
   plugins: [
-    typescript2(), // 解析ts
+    typescript2() // 解析ts
     // nodeResolve(), // 解析第三方模块
     // terser() // 压缩代码
   ]
