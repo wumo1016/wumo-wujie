@@ -1,0 +1,7 @@
+{
+  /* prettier配置 */
+  "prettier.singleQuote": true, // 强制单引号
+  "prettier.semi": false, // 句末添加分号
+  "prettier.trailingComma": "none", // 在对象或数组的最后一项是否添加逗号
+  "prettier.arrowParens": "avoid"
+}
