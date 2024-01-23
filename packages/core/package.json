@@ -6,7 +6,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "watch": "rollup -c rollup.config.mjs -w",
-    "build": "rollup -c rollup.config.mjs"
+    "build": "shx rm -rf dist && rollup -c rollup.config.mjs"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +15,6 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
     "rollup": "^4.9.6",
-    "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.36.0"
   }
 }

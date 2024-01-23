@@ -2,11 +2,17 @@
   "name": "wumo-wujie-project",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "build:core": "npm run -C packages/core build",
+    "watch:core": "npm run -C packages/core watch"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "shx": "^0.3.4"
+  }
 }
